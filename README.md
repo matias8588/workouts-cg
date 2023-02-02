@@ -1,37 +1,54 @@
-# Getting Started with Create React App
+# Lev Challenge
 
-This project was developed with React, Typescript and Styled-component.
+_This project was developed with React, Typescript and Redux._
 
-## Introduction
+## Instructions 🚀
 
 You should clone this repository using the following script:
 
-### Installation
+```
+git clone https://github.com/matias8588/workouts-cg
+```
+
+### Installation 🔧
 
 Just run the following commands. It's easy!
 
+```
 npm install & npm run start
+```
 
-### Also, it has Cypress Tests
+or
 
-You should run this script and a new Cypress console will appear:
+```
+yarn & yarn start
+```
 
-npm run cypress:run
+### App State 🔄
 
-https://share.getcloudapp.com/o0u9zoZy
+Context API is used on this project. It provides a global state to the app. It is a simple way to manage the state of the app.
 
-### Clean code
+### Clean code 💅🏻
 
 I've added Husky + Lint-staged flow, in order to keep safe our code. They check errors on pre-commit and pre-push events.
 
+
 Also, I've added too ESLint rules that order correctly the imports lines by group and order alphabetically props components.
+## Deploy 📦
 
-### Build-with
+I've decided to use Github pagess because it has a simple Installation and Configuration flow. Netlify allows us that on every commit into `main` a new deploy runs upgrading the Site page. Also it provides us Preview Deploys, like the followings:
 
--   React
--   Typescript
--   Cypress
--   ESLint
--   Prettier
+- Live demo on: <https://lev-challenge.netlify.app/>
 
-### Author
+## Build-with 🛠️
+
+- React
+- Typescript
+- Styled Components
+- Cypress
+- ESLint
+- Prettier
+
+## Author 👨🏻‍💻
+
+- **Matias Cejas** - [matias8588](https://github.com/matias8588)

@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Content, Image, Wrapper } from "./CardWorkout.styles";
-import { IWorkout } from "./types";
+import { IWorkout } from "../../types";
+import video from "../../assets/video.png";
 
 const CardWorkout = ({ workout }: IWorkout) => (
   <Wrapper data-testid="card-workout">
@@ -11,22 +12,25 @@ const CardWorkout = ({ workout }: IWorkout) => (
       </Link>
     </div>
     <Content>
-      <h3>{workout.title}</h3>
+      <a href={workout.media} target="_blank" rel="noopener noreferrer">
+        <h3>{workout.title}</h3>
+      </a>
+
       <div className="info">
         <div className="data">
-          <span className="data-title">Level</span>
-          <span>{workout.levelTag}</span>
+          <span className="data-title">Level: {workout.levelTag}</span>
         </div>
         <div className="data">
-          <span className="data-title">Impact</span>
-          <span>{workout.impactTag}</span>
+          <span className="data-title">Impact: {workout.impactTag}</span>
         </div>
         <div className="data">
-          <span className="data-title">Duration</span>
-          <span> {workout.duration}m</span>
+          <span className="data-title">Duration: {workout.duration}m</span>
         </div>
       </div>
       <p className="description">{workout.description}</p>
+      <a href={workout.media} target="_blank" rel="noopener noreferrer">
+        <img src={video} alt="media" className="icon-media" width={30} height={"100%"} />
+      </a>
     </Content>
   </Wrapper>
 );

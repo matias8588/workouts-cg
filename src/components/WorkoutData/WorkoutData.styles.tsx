@@ -63,11 +63,11 @@ export const Content = styled.div`
   display: flex;
   align-items: center;
   justify-items: center;
-  padding: 1rem;
+
   min-height: 60vh;
   max-width: var(--maxWidth);
   margin: 0 auto;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.7);
   border-radius: 20px;
   position: relative;
   .media {
@@ -98,8 +98,11 @@ export const Content = styled.div`
 export const Text = styled.div`
   width: 100%;
   padding: 20px 40px;
-  color: white;
+  color: #fff;
   overflow: hidden;
+  a {
+    color: #fff;
+  }
   .wrapper-info {
     display: flex;
     justify-content: flex-start;

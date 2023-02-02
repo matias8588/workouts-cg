@@ -47,6 +47,7 @@ export const Content = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 0 10px;
+  font-family: "Gilroy";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -57,6 +58,9 @@ export const Content = styled.div`
     font-size: 16px;
     line-height: 20px;
     color: #000000;
+  }
+  a {
+    color: #000;
   }
   .data-title {
     margin-right: 10px;

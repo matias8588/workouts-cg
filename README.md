@@ -52,6 +52,12 @@ For e2e testing
 yarn cypress:run
 ```
 
+## Deploy 📦
+
+I've decided to use netlify because it has a simple Installation and Configuration flow. Netlify allows us that on every commit into `main` a new deploy runs upgrading the Site page.
+
+- Live demo on: <https://curious-mooncake-25ae6b.netlify.app/>
+
 ## Build-with 🛠️
 
 - React

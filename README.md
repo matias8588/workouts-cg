@@ -1,4 +1,4 @@
-# Lev Challenge
+# Challenge
 
 _This project was developed with React, Typescript and Redux._
 
@@ -56,7 +56,7 @@ yarn cypress:run
 
 I've decided to use Github pagess because it has a simple Installation and Configuration flow. Netlify allows us that on every commit into `main` a new deploy runs upgrading the Site page. Also it provides us Preview Deploys, like the followings:
 
-- Live demo on: <https://lev-challenge.netlify.app/>
+- Live demo on: <https://matias8588.github.io/workouts-cg/>
 
 ## Build-with 🛠️
 

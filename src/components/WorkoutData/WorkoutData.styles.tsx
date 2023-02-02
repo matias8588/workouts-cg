@@ -67,8 +67,8 @@ export const Content = styled.div`
   min-height: 60vh;
   max-width: var(--maxWidth);
   margin: 0 auto;
-  background: rgba(0, 0, 0, 0.7);
-  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
   position: relative;
   .media {
     width: 100%;

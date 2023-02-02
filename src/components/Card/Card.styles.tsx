@@ -16,7 +16,11 @@ export const Wrapper = styled.div`
 `;
 
 export const Image = styled.div<IStyledBannerImg>`
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 41%, rgba(0, 0, 0, 0.65) 100%),
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 41%,
+      rgba(0, 0, 0, 0.65) 100%
+    ),
     url(${({ img }) => img}), gray;
   background-size: 100%auto, cover;
   background-position: center;
@@ -47,7 +51,6 @@ export const Content = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 0 10px;
-  font-family: "Gilroy";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;

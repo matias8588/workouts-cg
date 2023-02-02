@@ -3,7 +3,7 @@ import { Image, Wrapper, Content } from "./WorkoutData.styles";
 import { useWorkout } from "../../context/workoutsContext";
 import { useParams } from "react-router-dom";
 import ReactPlayer from "react-player";
-import { IWorkoutOBJ } from "../Card/types";
+import { IWorkoutOBJ } from "../CardWorkout/types";
 
 const WorkoutData = () => {
   const { getWorkout }: any = useWorkout();

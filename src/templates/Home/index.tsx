@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import CardWorkout from "../../components/Card";
+import CardWorkout from "../../components/CardWorkout";
 import { Content, Wrapper, WrapperTitle } from "./Home.styles";
 import { useWorkout } from "../../context/workoutsContext";
-import { IWorkoutOBJ } from "../../components/Card/types";
+import { IWorkoutOBJ } from "../../components/CardWorkout/types";
 
 const Home = () => {
   const { workouts }: any = useWorkout();

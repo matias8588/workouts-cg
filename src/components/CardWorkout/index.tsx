@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Content, Image, Wrapper } from "./Card.styles";
+import { Content, Image, Wrapper } from "./CardWorkout.styles";
 import { IWorkout } from "./types";
 
 const CardWorkout = ({ workout }: IWorkout) => (

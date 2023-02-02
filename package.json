@@ -29,8 +29,8 @@
     "prepare": "husky install",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -b main -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

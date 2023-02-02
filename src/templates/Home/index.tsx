@@ -1,7 +1,32 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import CardWorkout from "../../components/Card";
+import { Content, Wrapper, WrapperTitle } from "./Home.styles";
+import { useWorkout } from "../../context/workoutsContext";
+import { IWorkoutOBJ } from "../../components/Card/types";
 
-export const index = () => {
+const Home = () => {
+  const { workouts }: any = useWorkout();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div>index</div>
-  )
-}
+    <>
+      <Wrapper>
+        <WrapperTitle>
+          <h1> </h1>
+        </WrapperTitle>
+        <Content id="content-cards">
+          {workouts
+            ? workouts.map((workout: IWorkoutOBJ) => {
+                return <CardWorkout key={workout.id} workout={workout} />;
+              })
+            : null}
+        </Content>
+      </Wrapper>
+    </>
+  );
+};
+
+export default Home;

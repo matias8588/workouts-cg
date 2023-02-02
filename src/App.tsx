@@ -1,22 +1,25 @@
-import React from 'react';
+import React from "react";
+import Home from "./templates/Home";
+import { GlobalStyles } from "./global-styled";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import WorkoutData from "./components/WorkoutData";
+import { AuthProvider } from "./context/workoutsContext";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <AuthProvider>
+        <BrowserRouter>
+          <GlobalStyles />
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/:workoutId" element={<WorkoutData />} />
+          </Routes>
+        </BrowserRouter>
+      </AuthProvider>
+    </>
   );
 }
 

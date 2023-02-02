@@ -54,9 +54,9 @@ yarn cypress:run
 
 ## Deploy 📦
 
-I've decided to use Github pagess because it has a simple Installation and Configuration flow. Netlify allows us that on every commit into `main` a new deploy runs upgrading the Site page. Also it provides us Preview Deploys, like the followings:
+I've decided to use netlify because it has a simple Installation and Configuration flow. Netlify allows us that on every commit into `main` a new deploy runs upgrading the Site page.
 
-- Live demo on: <https://matias8588.github.io/workouts-cg/>
+- Live demo on: <https://matias8588.github.io/workouts-cg//>
 
 ## Build-with 🛠️
 

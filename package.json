@@ -28,9 +28,7 @@
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "cypress:run": "cypress run"
   },
   "eslintConfig": {
     "extends": [
@@ -62,7 +60,6 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "gh-pages": "^5.0.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.3"

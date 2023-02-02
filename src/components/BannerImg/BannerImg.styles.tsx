@@ -4,11 +4,7 @@ export interface IStyledBannerImg {
   img?: string;
 }
 export const Wrapper = styled.div<IStyledBannerImg>`
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 41%,
-      rgba(0, 0, 0, 0.65) 100%
-    ),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 41%, rgba(0, 0, 0, 0.65) 100%),
     url(${({ img }) => img}), gray;
   background-repeat: no-repeat;
   background-position: center;

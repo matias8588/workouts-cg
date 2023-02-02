@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import CardWorkout from "../../components/CardWorkout";
 import { Content, Wrapper, WrapperTitle } from "./Home.styles";
 import { useWorkout } from "../../context/workoutsContext";
-import { IWorkoutOBJ } from "../../components/CardWorkout/types";
+import { IWorkoutOBJ } from "../../types";
 
 const Home = () => {
   const { workouts }: any = useWorkout();

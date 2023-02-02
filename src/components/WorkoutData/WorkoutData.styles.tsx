@@ -63,12 +63,12 @@ export const Content = styled.div`
   display: flex;
   align-items: center;
   justify-items: center;
-
+  padding: 1rem;
   min-height: 60vh;
   max-width: var(--maxWidth);
   margin: 0 auto;
   background: rgba(0, 0, 0, 0.2);
-  padding: 0.5rem;
+  border-radius: 20px;
   position: relative;
   .media {
     width: 100%;

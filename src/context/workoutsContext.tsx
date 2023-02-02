@@ -16,7 +16,12 @@ export const AuthProvider = ({ children }: WorkoutContextProps) => {
   const [workouts, setWorkouts] = useState<any | null>(null);
 
   const getWorkouts = async () => {
-    const response = await (await fetch("workouts.json")).json();
+    const response = await (await (await fetch("workouts.json",{
+      headers:{
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      }
+    })).json());
     setWorkouts(response.data);
   };
 

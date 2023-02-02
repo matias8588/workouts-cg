@@ -1,6 +1,6 @@
 import React from "react";
 import { Content, Text, Wrapper } from "./BannerImg.styles";
-import { IBannerImg } from "./types";
+import { IBannerImg } from "../../types";
 
 const BannerImg = ({ img, title, text }: IBannerImg) => (
   <Wrapper img={img} data-testid="banner-img">

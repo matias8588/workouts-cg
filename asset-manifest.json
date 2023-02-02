@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/workouts-cg/static/js/main.c761c5a0.js",
+    "static/js/787.8420c69f.chunk.js": "/workouts-cg/static/js/787.8420c69f.chunk.js",
+    "static/media/campGladiator.svg": "/workouts-cg/static/media/campGladiator.d74fe3a6862fbfe6d9b77b06bed4399e.svg",
+    "static/media/Symbol.svg": "/workouts-cg/static/media/Symbol.897430564f0488b628814aefc44e12c2.svg",
+    "index.html": "/workouts-cg/index.html",
+    "main.c761c5a0.js.map": "/workouts-cg/static/js/main.c761c5a0.js.map",
+    "787.8420c69f.chunk.js.map": "/workouts-cg/static/js/787.8420c69f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c761c5a0.js"
+  ]
+}
